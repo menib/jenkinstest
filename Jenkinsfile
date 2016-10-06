@@ -1,16 +1,18 @@
-
 node('master'){
-   stage 'Checkout'
+
+   stage('Checkout'){
         echo 'Checkout'
+    }
 
-   stage 'Build'
+   stage('Build'){
          echo 'Build'
+    }
 
-   stage 'Test'
+   stage('Test'){
          echo 'Test'
+    }
 
-   stage 'Cleanup'
+   stage('Cleanup'){
         echo 'Cleanup'
+   }
 }
-
-
