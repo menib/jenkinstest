@@ -5,7 +5,7 @@ node('node') {
     try {
        stage 'Checkout'
             echo 'Checkout'
-            checkout scm
+           # checkout scm
 
        stage 'Build'
              echo 'Build'
