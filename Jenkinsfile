@@ -1,8 +1,8 @@
 
-node('node') {
+node('master') {
    stage 'Checkout'
         echo 'Checkout'
-       
+
 
    stage 'Build'
          echo 'Build'
